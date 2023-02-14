@@ -182,28 +182,26 @@ window.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "ArrowUp":
       moveSound.play();
-      console.log("ArrowUp");
       inputDir.x = 0;
       inputDir.y = -1;
       break;
 
     case "ArrowDown":
       moveSound.play();
-      console.log("ArrowDown");
+  
       inputDir.x = 0;
       inputDir.y = 1;
       break;
 
     case "ArrowLeft":
       moveSound.play();
-      console.log("ArrowLeft");
+  
       inputDir.x = -1;
       inputDir.y = 0;
       break;
 
     case "ArrowRight":
       moveSound.play();
-      console.log("ArrowRight");
       inputDir.x = 1;
       inputDir.y = 0;
       break;
